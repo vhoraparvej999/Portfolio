@@ -1,0 +1,526 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar start */
+.continer {
+    width: 1440px;
+    height: 596px;
+    margin: 0 auto;
+    background: #87509C;
+}
+.continer button{
+    background-color: #EB7D4B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 70px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    width: 1011px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px;
+    margin-left: 221px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #EB7D4B;
+    border-bottom: 1px solid black;
+}
+
+nav ul li a.active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 227px;
+}
+
+.block p {
+    font-family: 'Titillium Web';
+    text-align: center;
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #F7F3EA;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+.btn button {
+    width: 294px;
+    height: 70px;
+    background-color: #EB7D4B;
+    border: none;
+}
+
+.btn button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* navbar end */
+
+/* Services We Provide start */
+.Services-We-Provide {
+    width: 1440px;
+    height: 752px;
+    margin: auto;
+    background-color: #17C2A4;
+}
+
+.provide {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.provide h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-top: 106px;
+    position: relative;
+}
+
+.provide h1::after {
+    content: "";
+    width: 10%;
+    height: 2px;
+    background: #000000;
+    opacity: 0.15;
+    display: flex;
+    margin-left: 45%;
+    position: absolute;
+
+}
+
+.provide p {
+    text-align: center;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    height: 518px;
+}
+
+.service-box img {
+    padding: 50px 100px;
+    margin: 0;
+    width: 320px;
+    height: 224px;
+}
+
+.service-box h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    padding: 0 1%;
+    text-align: center;
+}
+
+.service-box p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* Services We Provide end */
+
+/* skills strat */
+.skills {
+    width: 1440px;
+    height: 655px;
+    background-color: white;
+}
+
+.skills-team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skills-team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    color: #3C4761;
+    text-align: center;
+    padding-top: 107px;
+}
+
+.skills-team::after {
+    content: "";
+    position: absolute;
+    right: 49%;
+    width: 87px;
+    height: 4px;
+    background: #BDD1DF;
+    opacity: 0.75;
+    margin-top: 60px;
+}
+
+.skills-team p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #3C4761;
+    margin-top: 24px;
+}
+
+.skills-re {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 150px;
+}
+
+.skills p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #3C4761;
+    margin-top: 24px;
+}
+
+/* skills end */
+/* Our-Portfoliio start */
+.Our-Portfoliio {
+    width: 1440px;
+    height: 1423px;
+    background-color: #FFDD99;
+    margin: 0%;
+    padding: 0%;
+}
+
+.protfoliio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.protfoliio h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+    color: #393939;
+    margin-top: 107px;
+}
+
+.protfoliio h4::after {
+    content: "";
+    position: absolute;
+    right: 48%;
+    width: 87px;
+    height: 4px;
+    background: #E5C37F;
+    opacity: 0.75;
+    margin-top: 60px;
+}
+
+.protfoliio p {
+    text-align: center;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #393939;
+}
+
+.protfoliio button {
+    width: 84px;
+    height: 38px;
+    margin-top: 37px;
+    opacity: 0.5;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #393939;
+}
+
+.protfoliio .active {
+    background-color: black;
+    color: white;
+}
+
+.works-part1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0 5%;
+    top: 62px;
+}
+
+.works-part1 img {
+    padding: 0 20px;
+}
+
+.works-part1 p {
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #393939;
+    top: 27px;
+}
+
+.works-part2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.works-part2 img {
+    padding: 0 20px;
+}
+
+.works-part2 p {
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #393939;
+    top: 27px;
+}
+
+.work-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 234px;
+
+}
+
+.work-btn button {
+    width: 294px;
+    height: 70px;
+    top: 50px;
+    background-color: #17C2A4;
+
+}
+
+.work-btn button a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Our-Portfoliio end */
+
+/* about us start */
+.about-us {
+    position: absolute;
+    width: 1440px;
+    height: 895px;
+    background: #D74680;
+    margin: 0;
+    padding: 0;
+}
+
+/* .about-hedding{
+    position: absolute;
+    display: flex;
+} */
+.about-hedding h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    line-height: 61px;
+    top: 72px;
+}
+.about-hedding h1::after{
+    content: "";
+    position: absolute;
+    right: 46%;
+    width: 8%;
+    height: 4px;
+    background: #BDD1DF;
+    opacity:0.400;
+    margin-top: 60px;
+}
+.about-hedding p {
+    position: relative;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+}
+.group-chanel-iman img{
+    position: relative;
+    display: flex;
+    top: 134px;
+    left: 182px;
+}
+
+/* team services start */
+.team-services {
+    width: 1440px;
+    height: 914px;
+    background: #E5E5E5;
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-services h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40.635px;
+    line-height: 62px;
+    color: #3C4761;
+    text-align: center;
+    padding-top: 107px;
+}
+
+.team-services h3::after {
+    content: "";
+    position: absolute;
+    right: 46%;
+    width: 8%;
+    height: 4px;
+    background: #BDD1DF;
+    opacity: 0.75;
+    margin-top: 60px;
+}
+
+.team-services p {
+    color: #3C4761;
+    text-align: center;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.services-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio {
+    padding: 50px 60px;
+}
+
+.bio a img {
+    padding: 50px 5px;
+    align-items: center;
+}
+
+.bio span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.bio p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.bio i {
+    font-size: 24px;
+    align-items: center;
+    padding-left: 12px;
+    margin-left: 10px;
+    margin-top: 37px;
+    color: black;
+}
+
+.bio i:hover{
+    color: #0073e6; /* Change color on hover */
+    transform: scale(1.2); /* Slightly increase size on hover */
+}
+/* team services end */
